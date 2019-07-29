@@ -1,0 +1,71 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* h1 {
+  font-family: 'DM Sans', sans-serif;
+}
+
+body, input, button {
+  font-family: Ubuntu, sans-serif;
+} */
+
+header {
+  text-align: center;
+}
+
+.messages {
+  background-color: rgb(25, 25, 97);
+  border: 1px black solid;
+  border-radius: 5px;
+  padding-top: 1em;
+  height: 50vh;
+  overflow: auto;
+}
+
+.message {
+  color: white;
+  padding: 0.3em;
+}
+
+.date, .author {
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+
+input, button {
+  padding: 0.5em;
+  border-radius:5px;
+  border:1px solid black;
+}
+
+input {
+  margin-right: 10px;
+  border-radius:5px;
+  border:1px solid black;
+}
+
+#author {
+  width: 20%;
+}
+
+#content {
+  width: 60%;
+}
+
+button[type="submit"]{
+  width: 20%;
+  background-color: rgb(91, 91, 155);
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align:center;
+  margin-top: 20px;
+}
